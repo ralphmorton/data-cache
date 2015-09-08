@@ -1,5 +1,5 @@
 name:                data-cache
-version:             0.1.0
+version:             0.1.1
 synopsis:            Caching layer
 description:         Please see README.md
 homepage:            http://github.com/Feeniks/data-cache
@@ -15,7 +15,7 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Data.Cache
+  exposed-modules:     Data.Cache, Data.Cache.Types
   build-depends:       base >= 4.7 && < 5 
                      , lens >= 4.7.0.1 
                      , time >= 1.4.2 
